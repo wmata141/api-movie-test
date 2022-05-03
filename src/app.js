@@ -11,7 +11,7 @@ app.use(cors())
 app.use(bodyParser.json())
 app.use('/api', api)
 
-app.get("/", (req , res) => {
+app.get("/api-movie-test/", (req , res) => {
     res.json({
         mensaje: "Nodejs and JWT /api/author /api/film"
     });
