@@ -1,13 +1,10 @@
 {
-  "homepage": "http://wmata141.github.io/api-movie-test",
   "name": "api-mongo-jwt",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
